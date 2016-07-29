@@ -51,7 +51,7 @@ describe User do
         )
       end
 
-      it 'has many trips' do
+      it 'has many trips' do	
         expect(logan.trips).to include(reservation)
       end
 
