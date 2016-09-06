@@ -3,4 +3,5 @@ class Listing < ActiveRecord::Base
   # but that doesn't exist. Instead, we need to tell ActiveRecord which table
   # host is referring to
   belongs_to :host, :class_name => 'User'
+  has_many :neighborhoods, through: :cities
 end
