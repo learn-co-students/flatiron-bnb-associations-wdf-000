@@ -26,6 +26,7 @@ describe Reservation do
   end
 
   it 'has a checkin time' do
+    # binding.pry
     expect(reservation.checkin).to eq(Date.parse('2014-04-25'))
   end
 
