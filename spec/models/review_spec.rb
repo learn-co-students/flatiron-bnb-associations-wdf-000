@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe Review do
   let(:nyc) { City.create(name: 'NYC') }
-  let(:fidi) { Neighborhood.create(name: 'Fi Di', city: nyc) }
+    let(:fidi) { Neighborhood.create(name: 'Fi Di', city: nyc) }
   let(:amanda) { User.create(name: "Amanda") }
   let(:logan) { User.create(name: "Logan") }
   let(:listing) do
